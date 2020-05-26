@@ -1,0 +1,58 @@
+body {
+    background-color: #111b1e;
+    color: white;
+    font-size: 16px;
+}
+.header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    font-family: 'Amatic SC', cursive;
+    color: #c6302c;
+}
+
+.logo img {
+    width: 290px;
+    height: 90px;
+}
+
+.logo {
+    display: flex;
+    font-size: 2rem;
+    align-items: center;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.nav ul li {
+    list-style: none;
+    font-size: 2rem;
+    padding: 0 20px 0 20px;
+    margin: 10px;
+    float: right;
+
+}
+
+.nav a {
+    text-decoration: none;
+    padding: 5px;
+
+}
+
+.nav a:visited {
+    color: #c6302c
+}
+
+.nav a:hover {
+    font-size: 2,5rem;
+    color: white;
+}
+
+.nav {
+    width: 75%;
+    justify-content: flex-end;
+}
